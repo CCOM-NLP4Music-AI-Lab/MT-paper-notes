@@ -28,7 +28,9 @@ google brain 的magenta项目的经典之作，transformer应用到音乐中的�
 
 图片插入可以引用github超链接（放到本repo的resources目录里）（图片名字不要带空格）
 
-![image-20201028105709184](https://github.com/CCOM-NLP4music/MT-paper-notes/blob/master/resources/music_transformer_relative_local_attention.png)
+![image-20201028105709184](https://github.com/CCOM-NLP4music/MT-paper-notes/blob/main/resources/music_transformer_relative_local_attention.png)
+
+
 
 ## Results
 
