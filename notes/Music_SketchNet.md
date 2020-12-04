@@ -1,6 +1,3 @@
-<script type="text/x-mathjax-config">   MathJax.Hub.Config({     tex2jax: {       inlineMath: [ ['$','$'], ["\\(","\\)"] ],       processEscapes: true     }   }); </script>
-
-<script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
 
 # Music SketchNet
 
@@ -47,7 +44,7 @@ Irish and Scottish monophonic music数据集：4/4拍，16000训练， 2000测�
 
     - SketchNet模型结构中SketchVAE的encoder和decoder部分并不是连在一起的，而是中间插入了Inpainter和Connector
     - Encoder
-        - 把旋律抽出音高轮廓序列和rhythm 序列，音高做embedding后，丢进两层双向GRU，得到隐变量$Z_{pitch}, Z_{rhythm}$， 其中$Z^p，Z^f$丢给inpainter，$Z^m$丢给connector用于随机unmask
+        - 把旋律抽出音高轮廓序列和rhythm 序列，音高做embedding后，丢进两层双向GRU，得到隐变量![formula](https://render.githubusercontent.com/render/math?math=Z_%7Bpitch%7D%2C%20Z_%7Brhythm%7D)， 其中![formula](https://render.githubusercontent.com/render/math?math=Z%5Ep%EF%BC%8CZ%5Ef)丢给inpainter，![formula](https://render.githubusercontent.com/render/math?math=Z%5Em)丢给connector用于随机unmask
     - Hierarchical Decoder
         - upper beat GRU
         - lower tick GRU
@@ -55,7 +52,7 @@ Irish and Scottish monophonic music数据集：4/4拍，16000训练， 2000测�
 
 - ### SketchInpainter
 
-    组合了一堆GRU , 用来根据$Z^p$和$Z^f$预测$Z^m$
+    组合了一堆GRU , 用来根据![formula](https://render.githubusercontent.com/render/math?math=Z%5Ep%EF%BC%8CZ%5Ef)预测![formula](https://render.githubusercontent.com/render/math?math=Z%5Em)
 
     ![image-20201204215407658](https://github.com/CCOM-AI-Music-Lab/MT-paper-notes/blob/main/resources/sketchnet-inpainter.png)
 
