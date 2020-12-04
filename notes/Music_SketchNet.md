@@ -66,14 +66,6 @@ Irish and Scottish monophonic music数据集：4/4拍，16000训练， 2000测�
 
     ![image-20201204224608071](https://github.com/CCOM-AI-Music-Lab/MT-paper-notes/blob/main/resources/sketchnet-connector.png)
 
-
-
-图片插入可以引用github超链接（放到本repo的resources目录里）（图片名字不要带空格）
-
-![image-20201028105709184](https://github.com/CCOM-AI-Music-Lab/MT-paper-notes/blob/main/resources/music_transformer_relative_local_attention.png)
-
-
-
 ## Results
 
 - 针对sketchVAE的重建能力
