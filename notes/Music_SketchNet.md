@@ -22,7 +22,7 @@ ISMIR2020，一作是UCSD的Ke Chen.
 ## Related Work
 
 - [**Learning Interpretable Representation for Controllable Polyphonic Music Generation**](https://arxiv.org/pdf/2008.07122.pdf)
-- ISMIR 2020，VAE解耦chord 和texture, 出自music X lab
+    - ISMIR 2020，VAE解耦chord 和texture, 出自music X lab
 - Measure-VAE: 
     - ISMIR 2019
 - [**LEARNING TO TRAVERSE LATENT SPACES FOR MUSICAL SCORE INPAINTING**](https://arxiv.org/pdf/1907.01164)
